@@ -16,7 +16,7 @@ import (
 
 const (
 	bufferSize                     = 1024
-	defaultURL                     = "https://download.parallels.com/desktop/v17/17.1.1-51537/ParallelsDesktop-17.1.1-51537.dmg"
+	defaultURL                     = "https://repo.steampowered.com/arch/valveaur/mesa-aco-git-debug-20.1.0_devel.20200404.ffc7574ff73-7-x86_64.pkg.tar.xz"
 	defaultTimeout                 = 10 * time.Second
 	defaultDisableDownload         = false
 	defaultTestNum                 = 10

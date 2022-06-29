@@ -11,7 +11,7 @@ import (
 	"CloudflareSpeedTest/utils"
 )
 
-var version string = "2.0.3.4"
+var version string = "2.0.3.5"
 
 func init() {
 	var printVersion bool
@@ -63,7 +63,7 @@ CloudflareSpeedTest ` + version + `
 	flag.IntVar(&minDelay, "tll", 0, "平均延迟下限")
 	flag.IntVar(&downloadTime, "dt", 10, "下载测速时间")
 	flag.IntVar(&task.TestCount, "dn", 10, "下载测速数量")
-	flag.StringVar(&task.URL, "url", "https://download.parallels.com/desktop/v17/17.1.1-51537/ParallelsDesktop-17.1.1-51537.dmg", "下载测速地址")
+	flag.StringVar(&task.URL, "url", "https://repo.steampowered.com/arch/valveaur/mesa-aco-git-debug-20.1.0_devel.20200404.ffc7574ff73-7-x86_64.pkg.tar.xz", "下载测速地址")
 	flag.BoolVar(&task.Disable, "dd", false, "禁用下载测速")
 	flag.BoolVar(&task.IPv6, "ipv6", false, "启用IPv6")
 	flag.BoolVar(&task.TestAll, "allip", false, "测速全部 IP")
